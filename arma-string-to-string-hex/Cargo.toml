@@ -1,0 +1,17 @@
+[package]
+name = "arma-string-to-string-hex"
+description = "Arma 3 Extension written in Rust for converting string decimals into Hex representation"
+version = "1.0.0"
+edition = "2021"
+authors = ["johnb43"]
+repository = "https://github.com/johnb432/Arma-DNS-resolver"
+license = "MIT"
+keywords = ["arma"]
+readme = "../README.md"
+
+[dependencies]
+arma-rs = "1.3"
+
+[lib]
+name = "arma_string_to_string_hex_x64"
+crate-type = ["cdylib"]

@@ -1,0 +1,4 @@
+[workspace]
+members = [
+    "arma-string-to-string-hex",
+]
